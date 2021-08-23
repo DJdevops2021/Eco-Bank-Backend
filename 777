@@ -1,0 +1,5 @@
+echo "please enter filename"
+read filename
+touch $filename
+ls -l
+chmod 777 $filename
